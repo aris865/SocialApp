@@ -9,7 +9,7 @@ Download and extract the source code.
 Inside the app's folder open a command promt (Windows) and do the following to create a Python Virtual Environment
 
 ### macOS/Linux
-You may need to run ```bash sudo apt-get install python3-venv ``` first
+You may need to run ```bash sudo apt-get install python3-venv``` first
 
 ```bash
 python3 -m venv .venv
