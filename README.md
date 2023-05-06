@@ -1,40 +1,30 @@
-# base
+# Friendly
 
-## Installation
+Web Application built with **Django**.
 
-Using Visual Studio Code.
+## Simple way to install using pipenv.
 
-Download and extract the source code.
+- `git clone https://github.com/arischaristes/Friendly.git`
 
-Inside the app's folder open a command promt (Windows) and do the following to create a Python Virtual Environment
+- Make sure you are in the same directory as **requirements.txt**.
 
-### macOS/Linux
-You may need to run ```bash sudo apt-get install python3-venv``` first
+- `pipenv install ` (All requirements will be installed automatically.)
 
-```bash
-python3 -m venv .venv
-```
-### Windows
-```bash
-python -m venv .venv
-```
-Open the app's folder with Visual Studio Code
+- `python manage.py makemigrations`
 
-Select View->Command Palette->Python:Select Interpreter and choose the one located in the virtual environment.
+- `python manage.py migrate`
 
-Select Terminal->New Terminal (There now should be (venv) showing in the command prompt).
+- `python manage.py runserver` (starts the local server)
 
-```python 
-python manage.py migrate 
-python manage.py makemigrations
-```
+If you want to create **admin** account:
 
-## Usage
-To start the live server
-```python 
-python manage.py runserver
-```
-To create new admin user
-```python 
-python manage.py createsuperuser
-```
+- `python manage.py createsuperuser`
+
+## Home Preview
+
+<img src = "home.png" width="100%" height="100%" />
+
+## Post Preview
+
+<img src = "post.png" width="100%" height="100%" />
+

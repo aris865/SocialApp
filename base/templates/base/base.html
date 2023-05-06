@@ -13,19 +13,19 @@
     <link rel="stylesheet" type="text/css" href="{% static 'base/main.css' %}">
 
     {% if title %}
-        <title>base - {{ title }}</title>
+        <title>Friendly - {{ title }}</title>
     {% else %}
-        <title>base</title>
+        <title>Friendly</title>
     {% endif %}
 </head>
 <body>
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'index' %}">base</a>
+          <a class="navbar-brand mr-4" href="{% url 'index' %}">Friendly</a>
           <form action="{% url 'search' %}" method="GET" class="form-inline my-2 my-lg-1">
             {% csrf_token %}
-            <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" name="searched">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search a user" aria-label="Search" name="searched">
           </form>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
