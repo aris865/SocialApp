@@ -28,3 +28,7 @@ If you want to create **admin** account:
 
 <img src = "post.png" width="100%" height="100%" />
 
+## Profile Preview
+
+<img src = "profile.png" width="100%" height="100%" />
+
